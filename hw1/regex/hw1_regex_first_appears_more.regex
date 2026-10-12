@@ -1,0 +1,4 @@
+# first appears more:
+# {x ∈ {0, 1}∗ | |x| ≥ 3 and the first symbol of x appears at least three times total in x}
+
+alphabet = (0 | 1)*

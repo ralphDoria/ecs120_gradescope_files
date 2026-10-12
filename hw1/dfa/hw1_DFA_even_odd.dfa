@@ -1,0 +1,31 @@
+# even odd: {w ∈ {a, b}∗ | w starts with a and has even length, or w starts with b and has odd length }.
+
+states:
+  - q
+  - qEa
+  - qOa
+  - qEb
+  - qOb
+
+input_alphabet: [a, b]
+
+start_state: q
+
+accept_states: [qEa, qOb]
+
+delta:
+  q:
+    a: qOa
+    b: qOb
+  qEa:
+    a: qOa
+    b: qOa
+  qOa:
+    a: qEa
+    b: qEa
+  qEb:
+    a: qOb
+    b: qOb
+  qOb:
+    a: qEb
+    b: qEb

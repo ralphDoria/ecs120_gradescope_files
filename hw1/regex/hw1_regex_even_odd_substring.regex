@@ -1,0 +1,10 @@
+# even/odd/substring:
+# {x ∈ {a, b}∗⃓⃓⃓⃓ x has an even number of a’s, or x has an odd number of b’s, or
+# x contains both the substrings babb and aaba}
+
+alphabet = (a | b)*;
+evenA = (alphabet a alphabet a alphabet)*;
+oddB = (alphabet b alphabet)*;
+containsbabb = (alphabet babb alphabet)*;
+containsaaba = (alphabet aaba alphabet)*;
+evenA | oddB | containsbabb | containsaaba

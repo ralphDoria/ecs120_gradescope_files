@@ -1,0 +1,31 @@
+# at most three 1s: {w ∈ {0, 1}∗ | w contains at most three 1’s}
+
+states:
+  - q0 # 0 ones
+  - q1 # 1 ones
+  - q2 # 2 ones
+  - q3 # 3 ones
+  - qD # dead state: more than 3 ones
+
+input_alphabet: [0, 1]
+
+start_state: q0
+
+accept_states: [q0, q1, q2, q3]
+
+delta:
+  q0:
+    0: q0
+    1: q1
+  q1:
+    0: q1
+    1: q2
+  q2:
+    0: q2
+    1: q3
+  q3:
+    0: q3
+    1: qD
+  qD:
+    0: qD
+    1: qD

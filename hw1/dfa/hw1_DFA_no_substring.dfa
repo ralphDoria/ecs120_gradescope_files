@@ -1,0 +1,36 @@
+# no substring: {w ∈ {a, b, c}∗ | w does not contain the substring acab}.
+
+states:
+  - q
+  - qa
+  - qac
+  - qaca
+  - qacab
+
+input_alphabet: [a, b, c]
+
+start_state: q
+
+accept_states: [q, qa, qac, qaca]
+
+delta:
+  q:
+    a: qa
+    b: q
+    c: q
+  qa:
+    a: qa
+    b: q
+    c: qac
+  qac:
+    a: qaca
+    b: q
+    c: q
+  qaca:
+    a: qa
+    b: qacab
+    c: qac
+  qacab:
+    a: qacab
+    b: qacab
+    c: qacab
