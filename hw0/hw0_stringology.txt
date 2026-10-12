@@ -1,0 +1,10 @@
+{"njnj", "njfjj", "fjjnj", "fjjfjj"}
+{"njjj", "njnn", "fjjjj", "fjjnn"}
+{"", "nj", "fjj", "njnj", "fjjfjj", "njfjj", "fjjnj", "njnjnj"}
+{("nj", "jj"), ("nj", "nn"), ("fjj", "jj"), ("fjj", "nn")}
+{"nj", "fjj", "jj", "nn"}
+{"njnj", "njfjj", "fjjnj", "fjjfjj", "jjjj", "jjnn", "nnjj", "nnnn"}
+{"njnj", "njfjj", "njjj", "njnn", "fjjnj", "fjjfjj", "fjjjj", "fjjnn", "jjnj", "jjfjj", "jjjj", "jjnn", "nnnj", "nnfjj", "nnjj", "nnnn"}
+{"ff", "fj", "fn", "jf", "jj", "jn", "nf", "nj", "nn"}
+{"fnjn", "jfjf", "nfjf", "jfjfn", "nfnfj", "fnfjnn", "jfnfjf", "jjffjf"}
+{"fnjn", "jfjf", "nfjf", "fjfn", "fnfj", "nfjn", "fjnn", "jfnf", "jjff", "jffj", "ffjf", "nfnf"}
